@@ -1,0 +1,34 @@
+/*
+  Name: Ajaz Syed
+  This is the styles.css page. It contains the basic color scheme and outline
+  of the webpage.
+  */
+
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+
+h1, body {
+  color: black;
+  margin: 30px 30px 20px 20px;
+  text-align: center;
+  font-size: 65px;
+  font-family: 'Voltaire', sans-serif;
+  background-color: rgb(238, 147, 147);
+}
+
+body {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+#artist-search, #song-search, #get-lyrics {
+  color: maroon;
+  height: 30px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#get-lyrics {
+  background-color: rgb(19, 18, 18);
+  color: whitesmoke;
+  height: 40px;
+}
